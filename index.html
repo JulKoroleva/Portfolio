@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title></title>
+
+  <script src="libs/gsap/gsap.min.js" defer></script>
+  <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+  <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+  <script src="libs/swiper/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="css/main.css" />
+  <script src="js/app.js" defer></script>
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="content">
+      <header class="header section">
+        <p class="main-name"></p>
+        <nav>
+          <ul class="menu">
+            <li>
+              <a id="about-push" href="#" class="smooth-scroll" data-target="about-me"></a>
+            </li>
+            <li>
+              <a id="skills-push" href="#" class="smooth-scroll" data-target="skills"></a>
+            </li>
+            <li>
+              <a id="portfolio-push" href="#" class="smooth-scroll" data-target="portfolio"></a>
+            </li>
+            <li>
+              <a id="contacts-push" href="#" class="smooth-scroll" data-target="contacts"></a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="photo-section">
+        <div class="personal-info">
+
+          <a target="_blank" data-speed=".9" id="downloadButton" href="" class="download_cv"><img alt="downloadCV"
+              class="downloadButton" src="./img/downloadBtn.png"></a>
+
+
+          <p data-speed=".55" class="personal-info__description">
+
+          </p>
+        </div>
+
+        <div class="container">
+          <div data-speed=".75" class="main-header">
+            <h1 class="main-title first-title">web</h1>
+            <h1 class="main-title second-title">developer</h1>
+          </div>
+        </div>
+      </div>
+
+      <section id="about-me__section" class="about-me section">
+        <div class="logo about-push"></div>
+        <div class="description">
+          <p id="one" class="description_paragraph one"></p>
+          <p id="two" class="description_paragraph two"></p>
+          <p id="three" class="description_paragraph three"></p>
+          <p id="four" class="description_paragraph four"></p>
+        </div>
+      </section>
+
+      <section id="skills" class="skills section">
+        <div class="logo skills-push"></div>
+
+        <div data-speed="1.5" class="swiper slider slider_main">
+          <div class="swiper-wrapper slider__wrapper">
+            <div class="swiper-slide slider__item">
+              <div class="slider__box">
+                <h3 class="slider__box_title frontend">Frontend</h3>
+                <ul>
+                  <li> <img class="slider__box_img" src="./img/icons/js.png">JavaScript </li>
+                  <li><img class="slider__box_img" src="./img/icons/typescript.png">TypeScript</li>
+                  <li><img class="slider__box_img" src="./img/icons/html.png">HTML</li>
+                  <li><img class="slider__box_img" src="./img/icons/css.png">CSS (<img class="slider__box_img"
+                      style="margin: 0%" src="./img/icons/sass.png">SASS)
+                  </li>
+                  <li><img class="slider__box_img" src="./img/icons/react.png">React</li>
+                  <li><img class="slider__box_img" src="./img/icons/vue.png">Vue.js</li>
+                  <li><img class="slider__box_img" src="./img/icons/redux.png">Redux / Vuex</li>
+                  <li><img class="slider__box_img" src="./img/icons/webpack.png">Webpack</li>
+                </ul>
+              </div>
+            </div>
+            <div class="swiper-slide slider__item">
+              <div class="slider__box">
+                <h3 class="slider__box_title backend">Backend</h3>
+                <ul>
+                  <li><img class="slider__box_img" src="./img/icons/node.png">Node.js</li>
+                  <li><img class="slider__box_img" src="./img/icons/express.png">Express</li>
+                  <li><img class="slider__box_img" src="./img/icons/mongodb.png">MongoDB</li>
+                </ul>
+              </div>
+            </div>
+            <div class="swiper-slide slider__item">
+              <div class="slider__box">
+                <h3 class="slider__box_title additional"></h3>
+                <ul>
+                  <li><img class="slider__box_img" src="./img/icons/node.png">Docker</li>
+                  <li><img class="slider__box_img" src="./img/icons/git.png">Git</li>
+                  <ul
+                    style="margin-top: 20px; padding: 0; height: fit-content; color: rgb(200 200 200); margin-left: 20px;">
+                    Unit testing:
+                    <li><img class="slider__box_img" src="./img/icons/octopus.png">Testing library</li>
+                    <li><img class="slider__box_img" src="./img/icons/jest.png">Jest</li>
+                  </ul>
+                  <li><img class="slider__box_img" src="./img/icons/figma.png">Figma</li>
+                  <li><img class="slider__box_img" src="./img/icons/adobe-illustrator.png">Adobe Illustrator</li>
+                  <li><img class="slider__box_img" src="./img/icons/adobe-photoshop.png">Adobe Photoshop</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="swiper-slide slider__item">
+              <div class="slider__box">
+                <h3 class="slider__box_title languages"></h3>
+                <ul>
+                  <li class="russian"></li>
+                  <li class="english"></li>
+                  <li class="french"></li>
+                  <li class="german"></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div data-speed="1.4" class="swiper slider slider_bg">
+          <div class="swiper-wrapper slider__wrapper">
+            <div class="swiper-slide">
+              <div class="slider__box slider__bg-3"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider__box slider__bg-4"></div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider__box slider__bg-5"></div>
+            </div>
+
+            <div class="swiper-slide slider__item">
+              <div class="slider__box slider__bg-2"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="portfolio section">
+        <div data-speed="1" class="portfolio__title">
+          <div class="logo portfolio-push"></div>
+        </div>
+
+        <div class="container">
+          <main class="gallery">
+            <div data-speed="1" class="gallery__left">
+              <img class="gallery__item" src="img/work/codehub.png" alt="Alt" />
+              <div class="text-block gallery__item">
+                <h2 class="text-block__h ilive">
+                </h2>
+                <p class="text-block__p">#React #JavaScript #CSS #HTML</p>
+                <a class="text-block__a_left" href="http://46.72.127.251:3000/home" target="_blank"></a>
+              </div>
+              <img class="gallery__item" src="img/work/travel.png" alt="Alt" />
+
+              <div class="text-block gallery__item">
+                <h2 class="text-block__h caesar">
+                </h2>
+                <p class="text-block__p">#JavaScript #CSS #HTML</p>
+                <a class="text-block__a_left" href="https://julkoroleva.github.io/CaesarCipher/" target="_blank"></a>
+              </div>
+              <img class="gallery__item" src="img/work/miroshenka.png" alt="Alt"
+                style="background: linear-gradient(35deg,rgba(62,61,66,.804),rgba(71,71,107,.79) 24%,rgba(107,69,107,.844) 50%,rgba(92,119,138,.922) 76%,rgba(73,92,117,.883));" />
+            </div>
+
+            <div data-speed="1.1" class="gallery__right">
+              <div class="text-block gallery__item">
+                <h2 class="text-block__h codehub">
+                </h2>
+                <p class="text-block__p">#JavaScript #CSS #HTML #Vue #Vuex</p>
+                <a class="text-block__a_right" href="https://julkoroleva.github.io/CodeHub/" target="_blank"></a>
+              </div>
+
+              <img class="gallery__item" src="img/work/ilive.png" alt="Alt" />
+              <div class="text-block gallery__item">
+                <h2 class="text-block__h travel">
+                </h2>
+                <p class="text-block__p">
+                  #TypeScript #React #Redux #Sass #HTML
+                </p>
+                <a target="_blank" class="text-block__a_right" href="https://github.com/JulKoroleva/Travel-Planner"></a>
+              </div>
+              <img class="gallery__item" src="img/work/caesar.png" alt="Alt" />
+              <div class="text-block gallery__item">
+                <h2 class="text-block__h samgram">
+                </h2>
+                <p class="text-block__p">#JavaScript #CSS #HTML</p>
+                <a class="text-block__a_right" href="https://julkoroleva.github.io/SamGram/index.html" target="_blank"></a>
+              </div>
+            </div>
+          </main>
+        </div>
+      </section>
+
+      <section id="contacts" class="contacts section">
+        <div class="logo contacts-push"></div>
+        <div class="description">
+          <h2 id="phoneTitle"></h2>
+          <p>+ 7 (999) 604-70-21</p>
+          <h2>Email</h2>
+          <p>jkorolevadev@gmail.com</p>
+          <h2>LinkedIn</h2>
+          <a href="http://www.linkedin.com/in/julia-koroleva-dev" target="_blank">http://www.linkedin.com/in/julia-koroleva-dev</a>
+          <h2>Telegram</h2>
+          <a href="https://t.me/KorolevaDev" target="_blank">@KorolevaDev</a>
+          <h2>GitHub</h2>
+          <a href="https://github.com/JulKoroleva" target="_blank">https://github.com/JulKoroleva</a>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="js/translations.js" defer></script>
+</body>
+
+</html>
