@@ -90,21 +90,21 @@ a {
 
 @media screen and (min-width: 320px) and (max-width: 500px) {
   .first-title {
-    bottom: 20vh;
+    bottom: 30vh;
   }
 
   .second-title {
-    bottom: 10vh;
+    bottom: 20vh;
   }
 }
 
 @media screen and (min-width: 500px) and (max-width: 900px) {
   .first-title {
-    bottom: 18vh;
+    bottom: 23vh;
   }
 
   .second-title {
-    bottom: 5vh;
+    bottom: 10vh;
   }
 }
 
