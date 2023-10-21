@@ -1,7 +1,7 @@
 const translations = {
   ru: {
     title: "Юлия Королева",
-    cv:'/cv_ru.pdf',
+    cv:'./cv_ru.pdf',
     aboutMe: "Обо мне",
     skills: "Навыки",
     portfolio: "Проекты",
@@ -39,7 +39,7 @@ const translations = {
   },
   en: {
     title: "Julia Koroleva",
-    cv:'/cv_en.pdf',
+    cv:'./cv_en.pdf',
     aboutMe: "About me",
     skills: "Skills",
     portfolio: "Projects",
