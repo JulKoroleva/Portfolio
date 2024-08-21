@@ -539,7 +539,7 @@ margin-top: calc(var(--sizeindex) * 0.8);
 }
 
 .swiper-slide, .slider__item, .active, .swiper-slide-active {
-  width: calc(var(--index) * 12);
+  width: calc(var(--index) * 42);
   height: calc(var(--index) * 19);
   color: transparent;
   outline: none;
