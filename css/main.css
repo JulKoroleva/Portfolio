@@ -69,9 +69,19 @@ a {
 
 .container {
   display: flex;
+  /* display: flex;
+  justify-content: center;
+  justify-self: center; */
+  padding: 0 7vw;
+  width: 80vw;
+}
+
+.container_gallary {
+  display: flex;
   justify-content: center;
   padding: 0 7vw;
   /* width: 80vw; */
+
 }
 
 .main-title {
@@ -455,7 +465,7 @@ a {
 
 .section {
   will-change: transform;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .section__title {
