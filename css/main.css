@@ -430,7 +430,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  width: calc(var(--index) * 12);
+  /* width: calc(var(--index) * 12); */
   /* height: calc(var(--index) * 19); */
   transition: var(--transition) !important;
   will-change: transform;
@@ -438,6 +438,9 @@ a {
   background-color: #909090a2;
   border-radius: 15px;
   padding:  calc(var(--sizeindex) * 0.8);
+  width: 100%;
+  /* max-width: 250px; */
+  min-width: 250px;
   height: fit-content;
   /* min-height: 470px; */
 }
