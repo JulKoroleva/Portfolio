@@ -424,7 +424,7 @@ a {
   border-radius: 15px;
   padding:  calc(var(--sizeindex) * 0.8);
   height: fit-content;
-  min-height: 50vh;
+  min-height: 470px;
 }
 
 .slider__box h3 {
