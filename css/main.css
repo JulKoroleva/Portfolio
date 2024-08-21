@@ -110,7 +110,9 @@ a {
 
 .gallery {
   display: flex;
+  justify-content: center;
   padding: calc(var(--index) * 2) 0;
+  width: 90vw;
 }
 
 .gallery > * {
@@ -118,7 +120,6 @@ a {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 100%;
 }
 
 .gallery__item {
