@@ -114,10 +114,11 @@ a {
 }
 
 .gallery > * {
-  flex: 1;
+  /* flex: 1; */
   display: flex;
   align-items: center;
   flex-direction: column;
+  width: 100%;
 }
 
 .gallery__item {
@@ -762,7 +763,6 @@ margin-top: calc(var(--sizeindex) * 0.8);
 
 .about-me {
   height: 100vh;
-  width: 100vw;
 }
 
 .description_paragraph {
