@@ -68,7 +68,10 @@ a {
 }
 
 .container {
+  display: flex;
+  justify-content: center;
   padding: 0 7vw;
+  /* width: 80vw; */
 }
 
 .main-title {
@@ -112,7 +115,7 @@ a {
   display: flex;
   justify-content: center;
   padding: calc(var(--index) * 2) 0;
-  width: 80vw;
+  width: 100%;
 }
 
 .gallery > * {
