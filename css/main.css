@@ -76,15 +76,6 @@ a {
   width: 80vw;
 }
 
-.container_gallary {
-  display: flex;
-  justify-content: center;
-  justify-self: center;
-  padding: 0 7vw;
-  width: 90%;
-
-}
-
 .main-title {
   font-size: calc(var(--index) * 7);
   position: absolute;
@@ -122,10 +113,18 @@ a {
   }
 }
 
+.container_gallary {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  width: 100%;
+
+}
+
 .gallery {
   display: flex;
   justify-content: center;
-  padding: calc(var(--index) * 2) 0;
+  padding: 0 7vw;
   width: 100%;
 }
 
