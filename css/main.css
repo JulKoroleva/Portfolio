@@ -263,7 +263,7 @@ a {
   justify-content: center;
   align-items: center;
   width: calc(var(--index) * 25);
-  /* right: 5vw; */
+  right: 5vw;
   top: 15vh;
   z-index: 200;
 }
@@ -762,6 +762,7 @@ margin-top: calc(var(--sizeindex) * 0.8);
 
 .about-me {
   height: 100vh;
+  width: 100vw;
 }
 
 .description_paragraph {
