@@ -79,8 +79,9 @@ a {
 .container_gallary {
   display: flex;
   justify-content: center;
+  justify-self: center;
   padding: 0 7vw;
-  /* width: 80vw; */
+  width: 90%;
 
 }
 
